@@ -36,3 +36,7 @@ Qual a melhor definição de uma classe coesa?
 - Ação de acoplar. Agrupamento aos pares.
 - Classes acopladas causam fragilidade no código da aplicação, o que dificulta sua aplicação.
 
+### Aula 01.08 - Dependências no código
+O que é correto afirmar sobre acoplamento?
+- É impossível criar um bom sistema sem nenhum tipo de acoplamento. É fato que, se estamos organizando o nosso código, seguindo as recomendações da orientação a objetos, algum acoplamento acontecerá. Algumas classes precisarão de outras, para que não tenham muitas responsabilidades. Cabe a nós medir quando faz sentido adicionar tal acoplamento com as dependências e como depender do que é seguro, ao invés de classes concretas.
+
