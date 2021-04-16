@@ -28,3 +28,7 @@ Qual a melhor definição de uma classe coesa?
 - Proteje uma classe de manipulações externas.
 - Classes não encapsuladas permitem violação de regras de negócio, além de aumentarem o acoplamento.
 
+### Aula 01.06 - Protegendo o código
+- Getters e setters por si só não fornecem nenhum tipo de encapsulamento. O fato de criar getters e setters para tudo, na verdade, quebra o encapsulamento da nossa classe.
+- Encapsulamento ajuda no uso correto dos objetos. Ao encapsular o acesso a determinados dados, liberando acesso apenas ao necessário, os objetos da nossa classe se tornam mais fáceis de serem utilizados.
+
