@@ -8,3 +8,7 @@ Curso de SOLID com Java: Princípios da programação orientada a objetos
 - `L`iskov Substitution Principal
 - `I`nterface Sergregation Principal
 - `D`ependency Inveersion Principal
+
+### Aula 01.02 - Projeto inicial do treinamento
+- [Projeto Inicial](./rh)
+
