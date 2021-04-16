@@ -12,3 +12,7 @@ Curso de SOLID com Java: Princípios da programação orientada a objetos
 ### Aula 01.02 - Projeto inicial do treinamento
 - [Projeto Inicial](./rh)
 
+### Aula 01.03 - Coesão
+- Coesão: harmonia entre a classe e os seus atributos e métodos. Eles devem manter uma relação em comum, como por exemplo, uma classe Funcionario com os atributos nome, cpf, salario e etc e os métodos get dos atributos.
+- Classes não coesas tedem a crescer indefinitivamente, o que as tornam difíceis de manter.
+
