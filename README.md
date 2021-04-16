@@ -22,3 +22,9 @@ Qual a melhor definição de uma classe coesa?
 - Uma classe coesa não pode executar várias tarefas.
 - Uma classe coesa não pode executar várias tarefas.
 
+### Aula 01.05 - Encapsulamento
+- Incluir ou proteger alguma coisa em cápsula.
+- encapsulamento é uma forma de manter os objetos das nossas classes protegidos, fornecendo apenas o que é estritamente necessário para o mundo exterior.
+- Proteje uma classe de manipulações externas.
+- Classes não encapsuladas permitem violação de regras de negócio, além de aumentarem o acoplamento.
+
