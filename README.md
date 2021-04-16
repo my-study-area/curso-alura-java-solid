@@ -32,3 +32,7 @@ Qual a melhor definição de uma classe coesa?
 - Getters e setters por si só não fornecem nenhum tipo de encapsulamento. O fato de criar getters e setters para tudo, na verdade, quebra o encapsulamento da nossa classe.
 - Encapsulamento ajuda no uso correto dos objetos. Ao encapsular o acesso a determinados dados, liberando acesso apenas ao necessário, os objetos da nossa classe se tornam mais fáceis de serem utilizados.
 
+### Aula 01.07 - Acoplamento
+- Ação de acoplar. Agrupamento aos pares.
+- Classes acopladas causam fragilidade no código da aplicação, o que dificulta sua aplicação.
+
