@@ -55,3 +55,77 @@ Nesta aula, aprendemos:
   - Acoplamento é a dependência entre classes
   - Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem  - nenhum acoplamento
   - Devemos controlar o nível de acoplamento na nossa aplicação 
+
+## Módulo 02 - Melhorando a coesão
+### Aula 02.01 - Extraindo a lógica de reajuste salarial
+- Classe `Funcionario` inicial:
+```java
+public class Funcionario {
+
+	private String nome;
+	private String cpf;
+	private Cargo cargo;
+	private BigDecimal salario;
+	private LocalDate dataUltimoReajuste;
+
+	public Funcionario(String nome, String cpf, Cargo cargo, BigDecimal salario) {
+		this.nome = nome;
+		this.cpf = cpf;
+		this.cargo = cargo;
+		this.salario = salario;
+	}
+
+	public void reajustarSalario(BigDecimal aumento) {
+		BigDecimal percentualReajuste = aumento.divide(salario, RoundingMode.HALF_UP);
+		if (percentualReajuste.compareTo(new BigDecimal("0.4")) > 0) {
+			throw new ValidacaoException("Reajuste nao pode ser superior a 40% do salario!");
+		}
+		this.salario = this.salario.add(aumento);
+		this.dataUltimoReajuste = LocalDate.now();
+	}
+
+  //getters and setters
+
+}
+```
+- Service responsável pela lógica do reajuste do salário:
+```java
+public class ReajusteService {
+	public void reajustarSalarioDoFuncionario(Funcionario funcionario, BigDecimal aumento) {
+		BigDecimal salarioAtual = funcionario.getSalario();
+		BigDecimal percentualReajuste = aumento.divide(salarioAtual, RoundingMode.HALF_UP);
+		if (percentualReajuste.compareTo(new BigDecimal("0.4")) > 0) {
+			throw new ValidacaoException("Reajuste nao pode ser superior a 40% do salario!");
+		}
+		
+		BigDecimal salarioReajustado = salarioAtual.add(aumento);
+		funcionario.atualizarSalario(salarioReajustado);
+	}
+}
+```
+- Classe `Funcionario` atualizada:
+```java
+public class Funcionario {
+
+	private String nome;
+	private String cpf;
+	private Cargo cargo;
+	private BigDecimal salario;
+	private LocalDate dataUltimoReajuste;
+
+	public Funcionario(String nome, String cpf, Cargo cargo, BigDecimal salario) {
+		this.nome = nome;
+		this.cpf = cpf;
+		this.cargo = cargo;
+		this.salario = salario;
+	}
+
+	public void atualizarSalario(BigDecimal novoSalario) {
+		this.salario = novoSalario;
+		this.dataUltimoReajuste = LocalDate.now();
+	}
+
+  //getters and setters
+
+}
+```
