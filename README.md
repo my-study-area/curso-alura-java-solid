@@ -136,3 +136,7 @@ public class Funcionario {
 ### Aula 02.03 - Single Responsibility Principle
 - Só porque você pode, não quer dizer que você deveria.
 - Uma classe deveria ter um único motivo para mudar.
+
+### Aula 02.04 - Definição de SRP
+Qual é a definição mais formal do princípio de responsabilidade única?    
+`R:` Uma classe (ou módulo, função, etc) deve ter um e apenas um motivo para mudar
