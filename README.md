@@ -129,3 +129,6 @@ public class Funcionario {
 
 }
 ```
+
+### Aula 02.02 - Extraindo classe
+- Refatoração é uma alteração no código que visa melhorar sua clareza e entendimento.
