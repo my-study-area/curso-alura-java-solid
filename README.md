@@ -140,3 +140,11 @@ public class Funcionario {
 ### Aula 02.04 - Definição de SRP
 Qual é a definição mais formal do princípio de responsabilidade única?    
 `R:` Uma classe (ou módulo, função, etc) deve ter um e apenas um motivo para mudar
+
+### Aula 02.05 - Faça como eu fiz
+
+### Aula 02.06 - O que aprendemos?
+- Que `classes/métodos/funções/módulos` devem ter uma única responsabilidade bem definida;
+- Que, segundo o `Princípio de Responsabilidade Única (SRP)`, uma classe deve ter um e apenas um motivo para ser alterada;
+- Como realizar uma refatoração no nosso sistema, para aplicar o SRP;
+- Como extrair uma classe.
