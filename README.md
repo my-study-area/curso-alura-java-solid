@@ -132,3 +132,7 @@ public class Funcionario {
 
 ### Aula 02.02 - Extraindo classe
 - Refatoração é uma alteração no código que visa melhorar sua clareza e entendimento.
+
+### Aula 02.03 - Single Responsibility Principle
+- Só porque você pode, não quer dizer que você deveria.
+- Uma classe deveria ter um único motivo para mudar.
