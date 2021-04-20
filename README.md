@@ -171,3 +171,7 @@ A classe ReajusteSalarial poderia crescer para sempre. Enquanto novas validaçõ
   - Isso significa que devemos poder criar novas funcionalidades e estender o sistema sem precisar modificar muitas classes já existentes
 - Uma classe que tende a crescer "para sempre" é uma forte candidata a sofrer alguma espécie de refatoração.
 
+## Módulo 04 - Herança indesejada
+### Aula 04.01 - Projeto da aula anterior
+### Aula 04.02 - Implementando uma nova regra de negócio
+
