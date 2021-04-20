@@ -148,3 +148,8 @@ Qual é a definição mais formal do princípio de responsabilidade única?
 - Que, segundo o `Princípio de Responsabilidade Única (SRP)`, uma classe deve ter um e apenas um motivo para ser alterada;
 - Como realizar uma refatoração no nosso sistema, para aplicar o SRP;
 - Como extrair uma classe.
+
+## Módulo 03 - Reduzindo o acoplamento
+### Aula 03.01 - Projeto da aula anterior
+
+### Aula 03.02 - Extraindo validações
