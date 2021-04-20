@@ -156,3 +156,6 @@ Qual é a definição mais formal do princípio de responsabilidade única?
 
 ### Aula 03.03 - Muitas validações
 A classe ReajusteSalarial poderia crescer para sempre. Enquanto novas validações de reajuste fossem criadas, novas condições deveriam ser adicionadas a esta classe, fazendo-a crescer interminavelmente.
+
+### Aula 03.04 - Open Closed Principle
+- Entidades de software (classes, funções, módulos, etc.) devem estar abertas para extensão, porém fechadas para modificação.
