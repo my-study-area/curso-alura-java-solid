@@ -159,3 +159,7 @@ A classe ReajusteSalarial poderia crescer para sempre. Enquanto novas validaçõ
 
 ### Aula 03.04 - Open Closed Principle
 - Entidades de software (classes, funções, módulos, etc.) devem estar abertas para extensão, porém fechadas para modificação.
+
+### Aula 03.05 - Garantindo que o sistema seja extensível
+- Para garantir que nosso sistema seja extensível da forma correta devemos garantir que cada ação/responsabilidade esteja na classe correta.
+
