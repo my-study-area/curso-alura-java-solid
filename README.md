@@ -153,3 +153,6 @@ Qual é a definição mais formal do princípio de responsabilidade única?
 ### Aula 03.01 - Projeto da aula anterior
 
 ### Aula 03.02 - Extraindo validações
+
+### Aula 03.03 - Muitas validações
+A classe ReajusteSalarial poderia crescer para sempre. Enquanto novas validações de reajuste fossem criadas, novas condições deveriam ser adicionadas a esta classe, fazendo-a crescer interminavelmente.
