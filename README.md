@@ -205,3 +205,6 @@ Qual seria uma alternativa quando a herança não fizer sentido?
 ### Aula 05.04 - Vantagem ao criar dependências com interfaces
 Que vantagem temos ao depender de interfaces e não de implementações?    
 `R:` Caso uma determinada implementação mude, não seremos afetados, pois dependemos apenas de sua interface.
+
+### Aula 05.05 - Interface Segregation Principle
+- Uma classe não deveria se forçada a depender de métodos que não utilizará.
