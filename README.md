@@ -185,3 +185,7 @@ Por que nossa classe Terceirizado estava estendendo de forma indesejada um compo
 - Se nada como um pato, voa como um pato, mas precisa de bateria, existe um problema de violação
 - Se para cada objeto o1 do tipo S existe um objeto o2 do tipo T,tal que, para todos os programas P definidos em termos de T,o comportamento de P fica inalterado quando o1 é substituído por o2, então S é um subtipo de T. Resumindo: Uma classe base deve poder ser substituída pela sua classe derivada.
 
+### Aula 04.06 - Alternativa à herança
+Qual seria uma alternativa quando a herança não fizer sentido?    
+`R:` Utilizar composição. Essa é uma das maneiras de evitar a herança sem duplicação de código.
+
