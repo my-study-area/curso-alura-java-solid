@@ -196,3 +196,9 @@ Qual seria uma alternativa quando a herança não fizer sentido?
 - Que o Princípio de Substituição de Liskov (LSP) diz que devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema.
 
 
+## Módulo 05 - Trabalhando com abstrações
+### Aula 05.01 - Projeto da aula anterior
+### Aula 05.02 - Criando abstrações com interfaces e polimorfismo
+### Aula 05.03 - Dependency Inversion Principle
+- Abstrações não devem depender de implementações. Implementações devem depender de abstrações. Dependa de abstrações e não de implementações.
+
