@@ -189,3 +189,10 @@ Por que nossa classe Terceirizado estava estendendo de forma indesejada um compo
 Qual seria uma alternativa quando a herança não fizer sentido?    
 `R:` Utilizar composição. Essa é uma das maneiras de evitar a herança sem duplicação de código.
 
+### Aula 04.07 - Faça como eu fiz
+
+### Aula 04.08 - O que aprendemos?
+- Que, embora a herança favoreça o reaproveitamento de código, ela pode trazer efeitos colaterais quando não utilizada da maneira correta;
+- Que o Princípio de Substituição de Liskov (LSP) diz que devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema.
+
+
