@@ -180,3 +180,8 @@ A classe ReajusteSalarial poderia crescer para sempre. Enquanto novas validaçõ
 ### Aula 04.04 - Herança
 Por que nossa classe Terceirizado estava estendendo de forma indesejada um comportamento?    
 `R:` Porque estava herdando métodos que não faziam sentido para ela. Alguns métodos herdados não deveriam existir nessa classe.
+
+### Aula 04.05 - Liskov Substitution Principle
+- Se nada como um pato, voa como um pato, mas precisa de bateria, existe um problema de violação
+- Se para cada objeto o1 do tipo S existe um objeto o2 do tipo T,tal que, para todos os programas P definidos em termos de T,o comportamento de P fica inalterado quando o1 é substituído por o2, então S é um subtipo de T. Resumindo: Uma classe base deve poder ser substituída pela sua classe derivada.
+
