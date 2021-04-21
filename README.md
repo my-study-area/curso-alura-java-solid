@@ -174,4 +174,6 @@ A classe ReajusteSalarial poderia crescer para sempre. Enquanto novas validaçõ
 ## Módulo 04 - Herança indesejada
 ### Aula 04.01 - Projeto da aula anterior
 ### Aula 04.02 - Implementando uma nova regra de negócio
+### Aula 04.03 - Utilizando herança da maneira errada
+- Utilizar composição no lugar de herança.
 
