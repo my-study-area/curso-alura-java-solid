@@ -202,3 +202,6 @@ Qual seria uma alternativa quando a herança não fizer sentido?
 ### Aula 05.03 - Dependency Inversion Principle
 - Abstrações não devem depender de implementações. Implementações devem depender de abstrações. Dependa de abstrações e não de implementações.
 
+### Aula 05.04 - Vantagem ao criar dependências com interfaces
+Que vantagem temos ao depender de interfaces e não de implementações?    
+`R:` Caso uma determinada implementação mude, não seremos afetados, pois dependemos apenas de sua interface.
