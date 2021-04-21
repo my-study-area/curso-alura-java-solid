@@ -177,3 +177,6 @@ A classe ReajusteSalarial poderia crescer para sempre. Enquanto novas validaçõ
 ### Aula 04.03 - Utilizando herança da maneira errada
 - Utilizar composição no lugar de herança.
 
+### Aula 04.04 - Herança
+Por que nossa classe Terceirizado estava estendendo de forma indesejada um comportamento?    
+`R:` Porque estava herdando métodos que não faziam sentido para ela. Alguns métodos herdados não deveriam existir nessa classe.
