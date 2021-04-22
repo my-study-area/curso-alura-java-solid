@@ -212,3 +212,7 @@ Que vantagem temos ao depender de interfaces e não de implementações?
 ### Aula 05.06 - Definição do ISP
 Qual a definição formal do `Interface Segregation Principle`?  
 `R:` Classes não devem ser obrigadas a implementar métodos que não irão precisar.
+
+### Aula 05.07 - Faça como eu fiz
+
+### Aula 05.08 - Projeto final do curso
