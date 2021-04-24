@@ -11,16 +11,16 @@
 </p>
 Curso de SOLID com Java: Princípios da programação orientada a objetos
 
-## Módulo 01 - Orientação a Objetos Ver primeiro vídeo
+## Módulo 01 - Orientação a Objetos
 ### Aula 01.01 - Apresentação
 - `S`ingle Responsability Principal
 - `O`pen closed Principal
 - `L`iskov Substitution Principal
 - `I`nterface Sergregation Principal
-- `D`ependency Inveersion Principal
+- `D`ependency Inversion Principal
 
 ### Aula 01.02 - Projeto inicial do treinamento
-- [Projeto Inicial](./rh)
+- [Projeto Inicial](https://github.com/my-study-area/curso-alura-java-solid/tree/8d36bd53c2749fb854426f8b0cba9b538c239e51/rh)
 
 ### Aula 01.03 - Coesão
 - Coesão: harmonia entre a classe e os seus atributos e métodos. Eles devem manter uma relação em comum, como por exemplo, uma classe Funcionario com os atributos nome, cpf, salario e etc e os métodos get dos atributos.
@@ -29,7 +29,6 @@ Curso de SOLID com Java: Princípios da programação orientada a objetos
 ### Aula 01.04 - Classes coesas
 Qual a melhor definição de uma classe coesa?
 - Uma classe que executa bem a sua única tarefa, de forma concisa.
-- Uma classe coesa não pode executar várias tarefas.
 - Uma classe coesa não pode executar várias tarefas.
 
 ### Aula 01.05 - Encapsulamento
@@ -59,11 +58,11 @@ Nesta aula, aprendemos:
   - Classes coesas não devem ter várias responsabilidades
 - Encapsulamento:
   - Getters e setters não são formas eficientes de aplicar encapsulamento
-  - É interessante fornecer acesso apenas ao que é necessário em nossas -   classes
+  - É interessante fornecer acesso apenas ao que é necessário em nossas classes
   - O encapsulamento torna o uso das nossas classes mais fácil e intuitivo
 - Acoplamento:
   - Acoplamento é a dependência entre classes
-  - Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem  - nenhum acoplamento
+  - Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem nenhum acoplamento
   - Devemos controlar o nível de acoplamento na nossa aplicação 
 
 ## Módulo 02 - Melhorando a coesão
